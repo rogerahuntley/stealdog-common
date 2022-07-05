@@ -5,7 +5,7 @@ class_name Swipe
 signal swiped
 
 var swipe_start setget ,get_swipe_dir
-export var minimum_dist_release = 25 # viewport is 600px
+export var minimum_dist_release = 25
 export var minimum_dist_quick = 50
 
 var swipe_dir
